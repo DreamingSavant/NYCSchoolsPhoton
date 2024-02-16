@@ -3,4 +3,86 @@
    uuid = "F571A9D1-AF36-4B62-A411-4E766A945EA4"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEADAAF3-1759-46D7-9D6D-DF4F8320F4BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYCSchoolsTests/MockNetworkingManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getDataFromNetworkingLayer(url:modelType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC1D2BA0-D46D-4F60-8AAD-23B7A96693D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYCSchoolsTests/MockNetworkingManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "getDataFromNetworkingLayer(url:modelType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1B28DD4-E100-41A4-81C0-A7DC1A523D2F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYCSchools/SchoolViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getDataFromCall(urlString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1B28DD4-E100-41A4-81C0-A7DC1A523D2F - e53144071d3013e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for NYCSchools.SchoolViewModel.getDataFromCall(urlString: Swift.String) async -&gt; ()"
+                  moduleName = "NYCSchools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roderickpresswood/Documents/Tutorials/NYCSchools/NYCSchools/SchoolViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "712">
+               </Location>
+               <Location
+                  uuid = "B1B28DD4-E100-41A4-81C0-A7DC1A523D2F - 3e3e6cc5666df5eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for NYCSchools.SchoolViewModel.getDataFromCall(urlString: Swift.String) async -&gt; ()"
+                  moduleName = "NYCSchools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roderickpresswood/Documents/Tutorials/NYCSchools/NYCSchools/SchoolViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

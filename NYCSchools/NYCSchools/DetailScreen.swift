@@ -13,8 +13,8 @@ struct DetailsScreen: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            Text(school.school_name ?? "")
-            Text(school.overview_paragraph ?? "")
+            Text(school.schoolName ?? "")
+            Text(school.overviewParagraph ?? "")
         }
     }
     

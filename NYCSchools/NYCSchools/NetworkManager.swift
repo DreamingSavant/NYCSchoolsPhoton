@@ -20,12 +20,11 @@ enum NetworkingError: Error {
 
 class NetworkManager: Networking {
     func getDataFromNetworkingLayer<T>(url: URL, modelType: T.Type) async throws -> T where T: Decodable {
-        do {
-            let (data, _) = try await URLSession.shared.data(from: url)
-            let parsedData = try JSONDecoder().decode(modelType, from: data)
-            return parsedData
-        } catch {
-            throw error
-        }
+        
+        let (data, _) = try await URLSession.shared.data(from: url)
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        let parsedData = try decoder.decode(modelType, from: data)
+        return parsedData
     }
 }

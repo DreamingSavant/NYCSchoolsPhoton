@@ -14,7 +14,7 @@ struct SchoolCell: View {
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
-                Text(school.school_name ?? "")
+                Text(school.schoolName ?? "")
                 Text(school.dbn ?? "")
             }
         }
